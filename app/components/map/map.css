@@ -1,0 +1,19 @@
+.sprite {
+  background-image: url("/sprite/sheet.png"); /* 스프라이트 이미지 경로 */
+  display: inline-block; /* 또는 필요에 맞는 다른 디스플레이 속성 */
+  background-repeat: no-repeat; /* 배경 이미지 반복 방지 */
+}
+
+.sprite-tile-grass-hole {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0; /* 스프라이트 이미지의 왼쪽 상단 모서리 */
+  background-repeat: no-repeat;
+}
+
+.sprite-tile-grass-hole {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0; /* 스프라이트 이미지의 왼쪽 상단 모서리 */
+  background-repeat: no-repeat;
+}
