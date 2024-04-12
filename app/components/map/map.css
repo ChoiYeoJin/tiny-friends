@@ -1,19 +1,18 @@
 .sprite {
-  background-image: url("/sprite/sheet.png"); /* 스프라이트 이미지 경로 */
-  display: inline-block; /* 또는 필요에 맞는 다른 디스플레이 속성 */
-  background-repeat: no-repeat; /* 배경 이미지 반복 방지 */
+  background-image: url("/sprite/sheet.png");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 384px 624px; /* 3배 확대된 전체 스프라이트 이미지의 크기 */
 }
 
 .sprite-tile-grass-hole {
-  width: 32px;
-  height: 32px;
-  background-position: 0 0; /* 스프라이트 이미지의 왼쪽 상단 모서리 */
-  background-repeat: no-repeat;
+  width: 96px; /* 원본 타일 크기의 3배 */
+  height: 96px; /* 원본 타일 크기의 3배 */
+  background-position: 0 0; /* 확대되지 않았으므로 위치 조정 필요 없음 */
 }
 
-.sprite-tile-grass-hole {
-  width: 32px;
-  height: 32px;
-  background-position: 0 0; /* 스프라이트 이미지의 왼쪽 상단 모서리 */
-  background-repeat: no-repeat;
+.sprite-tile-grass {
+  width: 48px; /* 원본 타일 크기의 3배 */
+  height: 48px; /* 원본 타일 크기의 3배 */
+  background-position: -240px -240px; /* 확대된 스프라이트 이미지에서의 새로운 타일 위치 */
 }
